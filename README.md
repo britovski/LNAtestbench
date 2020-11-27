@@ -5,7 +5,8 @@ Esta seção se destina ao resumo.
 
 # Introdução
 # Implementação do projeto
-![](PNG-brasão-Ufersa-194x300-small.png)
+<img src="PNG-brasão-Ufersa-194x300.png" width="100" height="10" >
+![](PNG-brasão-Ufersa-194x300.png)
 # TestBench
 # Simulação Pós-Layout
 # Conclusões
