@@ -5,6 +5,7 @@
 ## Resumo
 Este repositório apresenta a implementação e o tesbench de um circuito amplificador LNA (Low Noise Amplifier) com o uso do software ADS (Advanced Design System) para sua caracterização utilizando componentes comportamental e SMD comerciais. Resultados de simulação de ganho e resposta em frequência, linearidade (P1dB ou IIP3) e ruído (NF) serão desenvolvidos e comparados.
 ## Introdução
+O LNA é o primeiro estágio presente no receptor após a antena captar o sinal de rádio frequência (RF). Este amplificador apresenta a característica de baixo ruído, em que, sua função é amplificar o sinal recebido de modo a evitar ao máximo que o ruído intrínseco do componente venha a alterar o conteúdo da mensagem captada. Com isso, o LNA deve ser projetado de maneira que apresente uma baixa figura de ruído (NF).
 ## Implementação da tarefa
 Primeiramente, foi realizada a implementação do esquemático através do software Advanced Design System - ADS do amplificador LNA (Low Noise Amplifier) utilizando componentes ideais e SMD comerciais, como mostrado nas Figuras 1 e 2, respectivamente. 
 #### Figura 1 – Esquemático do circuito amplificador LNA com componentes ideais. Fonte: Autores, 2020.
