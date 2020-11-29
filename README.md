@@ -16,6 +16,7 @@ Primeiramente, foi realizada a implementação do esquemático através do softw
 ##
 Os circuitos foram projetados para operar numa frequência fundamental de 2,4 GHz. O transistor FET utilizado foi importado da própria biblioteca do ADS. Na Figura 1, é apresentado o esquemático do circuito LNA com valores projetados em componentes ideais, uma vez que, será necessário realizar uma análise crítica do funcionamento do circuito através dos resultados da simulação de Parâmetros-S, ganho, resposta em frequência e ruído, com os resultados apresentado por meio do esquemático da Figura 2, com componentes SMD comerciais da fabricante Murata, inseridos na biblioteca do software ADS. A seção seguinte apresenta os resultados da simulação de ambos os circuitos implementados.
 ## TestBench
+#### Figura 3 - Gráficos da simulação do amplificador LNA com componentes ideais retirados do ADS. Fonte: Autores, 2020.
 ![](Gráficos Ideais - 1.PNG)
 
 ## Conclusões
