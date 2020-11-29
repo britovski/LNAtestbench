@@ -27,7 +27,7 @@ A Segunda parte do TestBench é feita usando componentes SMD comercial, com o me
 Esta parte também faz uso dos procedimentos aplicados na primeira parte da simulação dos gráficos. Com isso, o ganho do LNA S21 = 13,671 dB pode ser visto no gráfico b), o coeficiente de reflexão na entrada S11 = -2,235 dB e saída S22 = -11,722 dB no gráfico c) e a figura de ruído NF = 0,663 dB no gráfico d) da Figura 5.
 #### Figura 5 - Gráficos retirados do ADS através simulação do amplificador LNA com componentes SMD comercial. a)?; b)Ganho do LNA, parâmetro S21; c)Coeficiente de reflexão de entrada (S11) e saída (S22); d)Figura de ruído do LNA. Fonte: Autores, 2020.
 <img src="GraficosReais1.PNG" width="600" > <br />
-A análise de linearidade com ponto de interceptação de terceira ordem IP3 para o simulação do amplificador LNA com componentes SMD comercial é mostrada na Figura 6.
+A análise de linearidade com ponto de interceptação de terceira ordem IP3 para o simulação do amplificador LNA com componentes SMD comercial é mostrada na Figura 6. Esta análise alcançou os mesmos valores de OIP3, IIP3 e ganho da primeira parte. 
 #### Figura 6 - Gráfico retirado pelo ADS da linearidade através da simulação do amplificador LNA com componentes SMD comercial. Fonte: Autores, 2020.
 <img src="GraficosReais2.PNG" width="600" > <br />
 Executando uma comparação entre os resultados obtidos nas duas partes pode-se averiguar que o amplificador utilizando componentes SMD comercial apresenta uma degradação nos resultados por consequência da existência de parasitas, uma vez que, na prática é impossível atingir as especificações de componentes ideais.
