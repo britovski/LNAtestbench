@@ -23,8 +23,8 @@ Na medida em que o sinal de entrada do amplificador aumenta o sinal de saída ta
 A análise de linearidade fica por conta do ponto de interceptação de terceira ordem IP3. Nessa simulação é analizado o sinal de frequência fundamental junto ao sinal de terceira harmônica no amplificador, para que se possa observar o comportamento da potência de saída em relação a entrada. Com isso, foi verificado esse comportamento, como é mostrado na Figura 4. Assim, pode-se obter 7 dB para o OIP3, -7 dB para o IIP3 e como resultado para o ganho 14 dB.
 #### Figura 4 - Gráfico retirado pelo ADS da linearidade através da simulação do amplificador LNA com componentes ideais. Fonte: Autores, 2020.
 <img src="GraficosIdeais2.PNG" width="600" > <br />
-A Segunda parte do TestBench é feita usando componentes SMD comercial também para verificar os parâmetros analisados anteriormente. <br />
-Esta segunda parte também faz uso dos procedimentos aplicados na primeira parte da simulação dos gráficos. O ganho do LNA S21 = 13,671 dB pode ser visto no gráfico b), o coeficiente de reflexão na entrada S11 = -2,235 dB e saída S22 = -11,722 dB no gráfico c) e a figura de ruído NF = 0,663 dB no gráfico d) da Figura 5.
+A Segunda parte do TestBench é feita usando componentes SMD comercial, com o mesmo intuito de verificar os parâmetros analisados anteriormente. <br />
+Esta segunda parte também faz uso dos procedimentos aplicados na primeira parte da simulação dos gráficos. Com isso, o ganho do LNA S21 = 13,671 dB pode ser visto no gráfico b), o coeficiente de reflexão na entrada S11 = -2,235 dB e saída S22 = -11,722 dB no gráfico c) e a figura de ruído NF = 0,663 dB no gráfico d) da Figura 5.
 #### Figura 5 - Gráficos retirados do ADS através simulação do amplificador LNA com componentes SMD comercial. a)?; b)Ganho do LNA, parâmetro S21; c)Coeficiente de reflexão de entrada (S11) e saída (S22); d)Figura de ruído do LNA. Fonte: Autores, 2020.
 <img src="GraficosReais1.PNG" width="600" > <br />
 A análise de linearidade com ponto de interceptação de terceira ordem IP3 para o simulação do amplificador LNA com componentes SMD comercial é mostrada na Figura 6.
