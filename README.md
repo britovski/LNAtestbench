@@ -18,18 +18,19 @@ Os circuitos foram projetados para operar numa frequência fundamental de 2,4 GH
 ## TestBench
 A primeira parte do TestBench foi realizada utilizando componentes ideais com objetivo de verificar o comportamento do ganho, resposta em frequência, linearidade e ruído. <br />
 A simulação do ganho do circuito é realizada através dos parâmetros S usando coeficiente de transmissão direta, parâmetro S21. O gráfico b) da Figura 3 mostra o ganho que o circuito fornece com S21 = 14,124 dB. Para verificar o casamento de saída e entrada, é necessário analisar o coeficiente de reflexão da entrada S11 = -2,094 dB e saída S22 = -11,925 dB que está apresentado gráfico c) da Figura 3. O próximo parâmetro a ser analisado do LNA foi a sua figura de ruído. Para tanto, pode-se aproveitar a simulação de parâmetros S, e clicar em NF para obter a figura de ruído NF = 0,626 dB que está apresentada no gráfico d) da Figura 3.
-#### Figura 3 - Gráficos retirados do ADS através simulação do amplificador LNA com componentes ideais. a)? b)Ganho do LNA, parâmetro S21; c)Coeficiente de reflexão de entrada (S11) e saída (S22); d)Figura de ruído do LNA. Fonte: Autores, 2020. Fonte: Autores, 2020.
+#### Figura 3 - Gráficos retirados do ADS através simulação do amplificador LNA com componentes ideais. a)?; b)Ganho do LNA, parâmetro S21; c)Coeficiente de reflexão de entrada (S11) e saída (S22); d)Figura de ruído do LNA. Fonte: Autores, 2020. Fonte: Autores, 2020.
 <img src="GraficosIdeais1.PNG" width="600"> <br />
 A análise de linearidade fica por conta do ponto de interceptação de terceira ordem IP3. Nessa simulação é inserida duas frequências na entrada do amplificador, mas que possuem a mesma potência de sinal. Em seguida, foi verificada a potência do sinal de saída mostrada na Figura 4.
 #### Figura 4 - Gráfico retirado pelo ADS da linearidade através da simulação do amplificador LNA com componentes ideais. Fonte: Autores, 2020.
 <img src="GraficosIdeais2.PNG" width="600" > <br />
 A Segunda parte do TestBench é feita usando componentes SMD comercial também para verificar os parâmetros analisados anteriormente. <br />
 Esta segunda parte também faz uso dos procedimentos aplicados na primeira parte da simulação dos gráficos. O ganho do LNA S21 = 13,671 dB pode ser visto no gráfico b), o coeficiente de reflexão na entrada S11 = -2,235 dB e saída S22 = -11,722 dB no gráfico c) e a figura de ruído NF = 0,663 dB no gráfico d) da Figura 5.
-#### Figura 5 - Gráficos retirados do ADS através simulação do amplificador LNA com componentes SMD comercial. Fonte: Autores, 2020. a)? b)Ganho do LNA, parâmetro S21; c)Coeficiente de reflexão de entrada (S11) e saída (S22); d)Figura de ruído do LNA. Fonte: Autores, 2020. Fonte: Autores, 2020.
+#### Figura 5 - Gráficos retirados do ADS através simulação do amplificador LNA com componentes SMD comercial. a)?; b)Ganho do LNA, parâmetro S21; c)Coeficiente de reflexão de entrada (S11) e saída (S22); d)Figura de ruído do LNA. Fonte: Autores, 2020.
 <img src="GraficosReais1.PNG" width="600" > <br />
 A análise de linearidade com ponto de interceptação de terceira ordem IP3 para o simulação do amplificador LNA com componentes SMD comercial é mostrada na Figura 6.
 #### Figura 6 - Gráfico retirado pelo ADS da linearidade através da simulação do amplificador LNA com componentes SMD comercial. Fonte: Autores, 2020.
 <img src="GraficosReais2.PNG" width="600" > <br />
+Executando uma comparação entre os resultados obtidos nas duas partes pode-se averiguar que o amplificador utilizando componentes SMD comercial apresenta uma degradação nos resultados por consequência da existência de parasitas, uma vez que, na prática é impossível atingir as especificações de componentes ideais.
 ## Conclusões
 Neste trabalho foi abordado o projeto e simulação de amplificador de baixo ruído (LNA), que no qual, foi elaborado um testbench para a caracterização do LNA utilizando componente comportamental e componentes comerciais. O testbench teve como resultado a simulação do ganho e resposta em frequência, linearidade (IIP3) e ruído (NF). Com isso, foi observado que na frequência fundamental de 2,4 GHz o ganho foi de x dB, (continuar...). Portanto, esse trabalho foi muito importante para o aprofundamento do projeto e simulação do amplificado LNA, visto que todos os objetivos foram alcançados.
 ## Referências
