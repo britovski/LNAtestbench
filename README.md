@@ -10,9 +10,9 @@ Dessa forma, para se obter uma baixa figura de ruído no LNA, é necessário esc
 ## Implementação da tarefa
 Primeiramente, foi realizada a implementação do esquemático através do software Advanced Design System - ADS do amplificador LNA (Low Noise Amplifier) utilizando componentes ideais e SMD comerciais, como mostrado nas Figuras 1 e 2, respectivamente. 
 #### Figura 1 – Esquemático do circuito amplificador LNA com componentes ideais. Fonte: Autores, 2020.
-![](LNA-ideal-1.PNG)
+<img src="LNA-ideal-1.PNG" width="600"> <br />
 #### Figura 2 - Esquemático do circuito amplificador LNA com componentes SMD comercial. Fonte: Autores, 2020.
-![](LNA-real.PNG)
+<img src="LNA-real.PNG" width="600"> <br />
 ##
 Os circuitos foram projetados para operar numa frequência fundamental de 2,4 GHz. O transistor FET utilizado foi importado da própria biblioteca do ADS. Na Figura 1, é apresentado o esquemático do circuito LNA com valores projetados em componentes ideais, uma vez que, será necessário realizar uma análise crítica do funcionamento do circuito através dos resultados da simulação de Parâmetros-S, ganho, resposta em frequência e ruído, com os resultados apresentado por meio do esquemático da Figura 2, com componentes SMD comerciais da fabricante Murata, inseridos na biblioteca do software ADS. A seção seguinte apresenta os resultados da simulação de ambos os circuitos implementados.
 ## TestBench
@@ -31,6 +31,6 @@ A análise de linearidade fica por conta do ponto de interceptação de terceira
 <img src="GraficosReais2.PNG" width="600" > <br />
 Executando uma comparação entre os resultados obtidos nas duas partes pode-se averiguar que o amplificador utilizando componentes SMD comercial apresenta uma degradação nos resultados por consequência da existência de parasitas, uma vez que, na prática é impossível atingir as especificações de componentes ideais.
 ## Conclusões
-Neste trabalho foi abordado o projeto e simulação de amplificador de baixo ruído (LNA), que no qual, foi elaborado um testbench para a caracterização do LNA utilizando componente comportamental e componentes comerciais. O testbench teve como resultado a simulação do ganho e resposta em frequência, linearidade (IIP3) e ruído (NF). Com isso, foi observado que na frequência fundamental de 2,4 GHz o ganho foi de 14,124 dB para os componentes ideais e 13,671 dB para os componentes SMD comercial, em que, essa deferença é conseguente dos parasitas presente na análise real do circuito. Portanto, esse trabalho foi muito importante para o aprofundamento do projeto e simulação do amplificado LNA, visto que todos os objetivos foram alcançados.
+Neste trabalho foi abordado o projeto e simulação de amplificador de baixo ruído (LNA), que no qual, foi elaborado um testbench para a caracterização do LNA utilizando componentes comportamentais e componentes comerciais. O testbench teve como resultado a simulação do ganho e resposta em frequência, linearidade (IIP3) e ruído (NF). Com isso, foi observado que na frequência fundamental de 2,4 GHz o ganho foi de 14,124 dB para os componentes ideais e 13,671 dB para os componentes SMD comercial, em que, essa diferença é consequência dos parasitas presente na análise real do circuito. Portanto, esse trabalho foi muito importante para o aprofundamento do projeto e simulação do amplificado LNA, visto que todos os objetivos foram alcançados.
 ## Referências
 RAZAVI. RF Microelectronics. 2nd. Ed. 2011
