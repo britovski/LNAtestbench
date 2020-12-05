@@ -33,4 +33,5 @@ Executando uma comparação entre os resultados obtidos nas duas partes pode-se 
 ## Conclusões
 Neste trabalho foi abordado o projeto e simulação de amplificador de baixo ruído (LNA), que no qual, foi elaborado um testbench para a caracterização do LNA utilizando componentes comportamentais e componentes comerciais. O testbench teve como resultado a simulação do ganho e resposta em frequência, linearidade (IIP3) e ruído (NF). Com isso, foi observado que na frequência fundamental de 2,4 GHz o ganho foi de 14,124 dB para os componentes ideais e 13,671 dB para os componentes SMD comercial, em que, essa diferença é consequência dos parasitas presente na análise real do circuito. Portanto, esse trabalho foi muito importante para o aprofundamento do projeto e simulação do amplificado LNA, visto que todos os objetivos foram alcançados.
 ## Referências
+ALMEIDA JÚNIOR, Paulo Acés de. PROJETO DE UM AMPLIFICADOR DE BAIXO RUÍDO E DE UM MISTURADOR DE FREQUÊNCIAS PARA UM TRANSCEPTOR ZIGBEE (2.4 GHz). TCC (Graduação) - Curso de Engenharia Eletrônica, Universidade de Brasília, Brasília, 2016. <br />
 RAZAVI. RF Microelectronics. 2nd. Ed. 2011
