@@ -54,6 +54,11 @@ Realizada a rede de adaptação de impedâncias e verificado o seu funcionamento
 <img src="MLIN ideal.PNG" width="800" > <br />
 #### Figura 14 - Esquemático do circuito amplificador LNA em linhas de microfita com componentes comerciais. Fonte: Autores, 2020.
 <img src="MLIN real.PNG" width="800" > <br />
+Em seguida, foram realizadas simulações para verificar o comportamento do circuito após realizada às suas alterações. A Figura 15 apresenta os resultados da simulação para os componentes comportamentais. Na Figura (a) tem-se o resultado de potência de saída em relação a sua entrada de -15,262 dB; em (b) é mostrado o comportamento do ganho em frequência S21=10,502 dB; em (c) são apresentados os coeficientes de transmissão S11=-10,346 dB e S22=-12,356 dB; e na Figura (d) o parâmetro ruído do circuito igual a nf(2)=0,421 dB. A análise de linearidade é mostrada na Figura 16, com 29 dB para o OIP3, 20 dB para o IIP3 e como resultado o ganho de 9 dB. 
+#### Figura 15 - Resultados de simulação do amplificador LNA com componentes comportamentais. a)Ponto de compressão 1 dB; b)Ganho do LNA, parâmetro S21; c)Coeficiente de reflexão de entrada (S11) e saída (S22); d)Figura de ruído do LNA. Fonte: Autores, 2020.
+<img src="resultados LNA ideal.PNG" width="600" > <br />
+#### Figura 16 - Resultado da linearidade do amplificador LNA com componentes comportamentais. Fonte: Autores, 2020.
+<img src="IP3 ideal.PNG" width="600" > <br />
 ## Conclusões
 Neste trabalho foi abordado o projeto e simulação de amplificador de baixo ruído (LNA), que no qual, foi elaborado um testbench para a caracterização do LNA utilizando componentes comportamentais e componentes comerciais. O testbench teve como resultado a simulação do ganho e resposta em frequência, linearidade (IIP3) e ruído (NF). Com isso, foi observado que na frequência fundamental de 2,4 GHz o ganho foi de 10,821 dB para os componentes ideais e 8,772 dB para os componentes SMD comercial, em que, essa diferença é consequência dos parasitas presente na análise real do circuito. Portanto, esse trabalho foi muito importante para o aprofundamento do projeto e simulação do amplificado LNA, visto que todos os objetivos foram alcançados.
 ## Trabalhos futuros
